@@ -14,14 +14,40 @@ This documentment will be divided into sections; Section 1 is this section. Sect
 Required Resources
 ---------------------
 
+* Computer Hardware that can run a  text editor, C compiler and Github.
+* Github Account, Github Local Repository and Remote Repository.
+* Fork of Paul Gardner-Stephen's se3Prac3 repository
+* Students to write the code and test cases.
 
 
-Features to be Tested
+
+Types of Tests that will not be useful
+---------------------------
+
+Types of Tests apply
+---------------------------
+
+* Unit Testing
+* Integration Testing
+* 
+
+Game Functions to be Tested
 -----------------------
 
+* Board Drawing 
+* Tilt Left Function
+* Tilt Right Function
+* Tilt Up Function
+* Tilt Down Function
+* Combine 2 Similar Numbers
+* Don't Combine Unique Numbers 
+* Win game condition a tile with 2048
+* Lose game condition when all the board is filled and cannot be combined.
 
-Features NOT to be Tested
+
+Game Functions NOT to be Tested
 ---------------------------
+* 
 
 
 Test Items Documentations
