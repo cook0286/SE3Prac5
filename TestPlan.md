@@ -20,16 +20,35 @@ Required Resources
 * Students to write the code and test cases.
 
 
-
-Types of Tests that will not be useful
----------------------------
-
 Types of Tests apply
 ---------------------------
 
 * Unit Testing
 * Integration Testing
-* 
+* Regression testing
+* Usability testing 
+* Performance testing
+* Installation testing
+* Documentation testing 
+* Operations testing 
+* security testing 
+* conﬁguration testing 
+
+
+
+Types of Tests that will not be useful
+--------------------------------------
+
+facility testing - does the system provide all the functions required?"
+volume testing - can the system cope with large data volumes?"
+stress testing - can the system cope with heavy loads?"
+endurance testing - will the system continue to work for long periods?"
+storage testing - are there any unexpected data storage issues?"
+installation testing - can we install the system successfully?"
+reliability testing - how reliable is the system over time?"
+recovery testing - how well does the system recover from failure?"
+serviceability testing - how maintainable is the system?"
+
 
 Game Functions to be Tested
 -----------------------
@@ -52,9 +71,26 @@ Game Functions NOT to be Tested
 
 Test Items Documentations
 --------------------------
+* How to Play
+* Installation Instructions
+* Test Results
 
 Risks and Dependencies
 --------------------------
 
+Security 
+--------------
+
 Success Criteria
 --------------------------
+
+* The Board Visible 
+* The Tile values are visible
+* The values Go to the Left side
+* The values Go to the Right side
+* The values Go Up
+* The values Go Down
+* 2 Similar Numbers Combine 
+* Unique Numbers Don't Combine
+* Win game condition a tile with 2048
+* Lose game condition when all the board is filled and cannot be combined.
