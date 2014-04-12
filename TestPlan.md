@@ -20,19 +20,19 @@ Required Resources
 * Students to write the code and test cases.
 
 
-Types of Tests apply
+Types of Tests to apply
 ---------------------------
 
-* Unit Testing
-* Integration Testing
-* Regression testing
-* Usability testing 
-* Performance testing
-* Installation testing
-* Documentation testing 
-* Operations testing 
-* security testing 
-* conﬁguration testing 
+## Unit Testing
+## Integration Testing
+## Regression testing
+## Usability testing 
+## Performance testing
+## Installation testing
+## Documentation testing 
+## Operations testing 
+## security testing 
+## conﬁguration testing 
 
 
 
@@ -50,8 +50,8 @@ recovery testing - how well does the system recover from failure?"
 serviceability testing - how maintainable is the system?"
 
 
-Game Functions to be Tested
------------------------
+Functions Unit to be Tested
+---------------------------------
 
 * Board Drawing 
 * Tilt Left Function
@@ -62,6 +62,10 @@ Game Functions to be Tested
 * Don't Combine Unique Numbers 
 * Win game condition a tile with 2048
 * Lose game condition when all the board is filled and cannot be combined.
+
+Integration to be Tested
+------------------------------
+
 
 
 Game Functions NOT to be Tested
@@ -74,12 +78,12 @@ Test Items Documentations
 * How to Play
 * Installation Instructions
 * Test Results
+* Commit log
+* Issues log
 
 Risks and Dependencies
 --------------------------
 
-Security 
---------------
 
 Success Criteria
 --------------------------
