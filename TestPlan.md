@@ -50,30 +50,39 @@ recovery testing - how well does the system recover from failure?"
 serviceability testing - how maintainable is the system?"
 
 
-Functions Unit to be Tested
+Items to be Tested
 ---------------------------------
+* Does the Program check if the user input is valid.
+* Tilt Left Function - Do Numbers stay or move to the left when the L is pressed 
+  - Does the numbers stay on the left if they are already positioned at the left.
+  - Does the number move to the left side of the board if the index in the furthest left is empty 
+  - Does the number move to the left side of the board if the index next to the furthest left is empty and the index on the left has a number. 
+   
+* Tilt Right Function-  Do Numbers stay or move to the right when the R is pressed 
+  - Does the numbers stay on the right if they are already positioned at the right.
+  - Does the number move to the right side of the board if the index in the furthest right is empty 
+  - Does the number move to the right side of the board if the index next to the furthest right is empty and the index on the right has a value stored. 
+  
+* Tilt Up Function -Do Numbers move up when the U is pressed 
+* Tilt Down Function -Do Numbers move Down  D is pressed 
 
-* Board Drawing 
-* Tilt Left Function
-* Tilt Right Function
-* Tilt Up Function
-* Tilt Down Function
-* Combine 2 Similar Numbers
+* Combine 2 Similar Numbers that next to each other
+* Combine 2 similar number  with an empty index separating them
+* Combine 2 similar number  with two empty indexes separating them
+
 * Don't Combine Unique Numbers 
 * Win game condition a tile with 2048
 * Lose game condition when all the board is filled and cannot be combined.
-
-Integration to be Tested
-------------------------------
-
+* Board Draws
+* Ensure
 
 
-Game Functions NOT to be Tested
+Item NOT to be Tested
 ---------------------------
 * 
 
 
-Test Items Documentations
+Documentations Produced
 --------------------------
 * How to Play
 * Installation Instructions
