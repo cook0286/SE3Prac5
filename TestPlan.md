@@ -23,16 +23,16 @@ Required Resources
 Types of Tests to apply
 ---------------------------
 
-## Unit Testing
-## Integration Testing
-## Regression testing
-## Usability testing 
-## Performance testing
-## Installation testing
-## Documentation testing 
-## Operations testing 
-## security testing 
-## conﬁguration testing 
+#### Unit Testing
+#### Integration Testing
+#### Regression testing
+#### Usability testing 
+#### Performance testing
+#### Installation testing
+#### Documentation testing 
+#### Operations testing 
+#### security testing 
+#### conﬁguration testing 
 
 
 
