@@ -9,7 +9,7 @@ The purpose of this document is a Testing Plan for 2048 program for SE3 practica
 The basic premise of the 2048 game is that you tilt the board left, right, up or down to move numbered tile together.  Any numbers that match, are combined into a single tile with the sum of the values of the two original tiles.  Since only pairs of tiles combine, the values will always be powers of two.  Each time you tilt the board, one new tile with value 2 or 4 is added.  The challenge is to work up to having a tile with 2,048 on it, before the board fills and no move is possible.  The score is calculated as the sum of the number on all tiles that have been combined.  
 
 
-This documentment will be divided into sections; Section 1 is this section. Section 2 describes the required sources to perform the testing. Section 3 Features to be tested. Section 4 Features that will not be tested. Section 5 List of documents that will be produced during the testing process. Section 6 will describe the risks and dependencies. Finally Section 7 will cover the success criteria of the test.  
+This documentment will be divided into sections; Section 1 is this section. Section 2 describes the required sources to perform the testing. Section 3 Types of testing that will be applied. Section 4 items that will be tested. Section 5  items that will not be tested. Section 6 List of documents that will be produced during the testing process. Section 7 will describe the risks and dependencies.Finally Section 8 will cover the success criteria of the test.  
 
 Required Resources
 ---------------------
@@ -64,7 +64,14 @@ Items to be Tested
   - Does the number move to the right side of the board if the index next to the furthest right is empty and the index on the right has a value stored. 
   
 * Tilt Up Function -Do Numbers move up when the U is pressed 
+  - Does the numbers stay up if they are already positioned at the top.
+  - Does the number move up at the very top side of the board if the index at the top is empty 
+  - Does the number move up to the index below the top if the index on the top has a value stored. 
+
 * Tilt Down Function -Do Numbers move Down  D is pressed 
+  - Does the numbers stay down if they are already positioned at the top.
+  - Does the number move down at the very bottom side of the board if the index at the bottom is empty 
+  - Does the number move down above the index above the bottom index if the bottom index has a value stored.
 
 * Combine 2 Similar Numbers that next to each other
 * Combine 2 similar number  with an empty index separating them
