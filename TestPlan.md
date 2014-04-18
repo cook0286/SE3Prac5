@@ -14,10 +14,11 @@ This documentment will be divided into sections; Section 1 is this section. Sect
 Required Resources
 ---------------------
 
-* Computer Hardware that can run a  text editor, C compiler and Github.
+* Computer Hardware that can run a text editor, C compiler and Github.
 * Github Account, Github Local Repository and Remote Repository.
 * Fork of Paul Gardner-Stephen's se3Prac3 repository
 * Students to write the code and test cases.
+* Internet Connection for Remote Access to Github Repository.
 
 
 Types of Tests to apply
@@ -34,10 +35,8 @@ Types of Tests to apply
 #### Security testing 
 #### conﬁguration testing 
 
-
-
-Types of Tests that will not be useful
---------------------------------------
+Types of Tests considered but will not be used
+---------------------------
 
 facility testing - does the system provide all the functions required?"
 volume testing - can the system cope with large data volumes?"
@@ -54,12 +53,12 @@ Items to be Tested
 ---------------------------------
 * Does the Program check if the user input is valid.
 * Tilt Left Function - Do Numbers stay or move to the left when the L is pressed 
-  - Does the numbers stay on the left if they are already positioned at the left.
+  - Does the numbers stay on the left if they are already positioned on the left.
   - Does the number move to the left side of the board if the index in the furthest left is empty 
   - Does the number move to the left side of the board if the index next to the furthest left is empty and the index on the left has a number. 
    
 * Tilt Right Function-  Do Numbers stay or move to the right when the R is pressed 
-  - Does the numbers stay on the right if they are already positioned at the right.
+  - Does the numbers stay on the right if they are already positioned on the right.
   - Does the number move to the right side of the board if the index in the furthest right is empty 
   - Does the number move to the right side of the board if the index next to the furthest right is empty and the index on the right has a value stored. 
   
@@ -78,16 +77,23 @@ Items to be Tested
 * Combine 2 similar number  with two empty indexes separating them
 
 * Don't Combine Unique Numbers 
+* Score if 
 * Win game condition a tile with 2048
 * Lose game condition when all the board is filled and cannot be combined.
 * Board Draws
-* Ensure
 
+
+Item considered but not to be Tested
+---------------------------
+* Ensure to the test that the players will not be able to cheat.
+ 
 
 Item NOT to be Tested
 ---------------------------
-* 
-
+* Multiplayer Function
+* Online Play
+* GUI 
+* Menu
 
 Documentations Produced
 --------------------------
@@ -100,29 +106,16 @@ Documentations Produced
 Risks and Dependencies
 --------------------------
 ### Risks 
-* Unclear requirements
-* Misunderstanding of requirements
-* Hardware or Software failure in the duration of the testing
-* 
-* 
-Risk	Probability	Risk Type	Owner	Contingencies / Mitigation Approach
-Unable to acquire the necessary number of skilled personnel as the components become ready to test.	30%	Personnel
-Schedule	Test Manager	Resources for components will be split between the existing resources.
-Schedule must be adjusted accordingly.
-Unable to acquire some of the necessary hardware and software required for integration and system testing	25%	Equipment	Program Manager
-Test Manager
-Development Manager	Utilize existing acquired hardware.
-Split test execution into morning and evening shifts such that testing can occur for multiple teams in the same day using the limited hardware. This requires support of the development during both shifts.
-Third party services utilized in the system become unavailable during testing	5%	Third party	Alliance Manager	Setup a communication channel to 3rd party to report and handle issues when they occur.
-Use the communication channel above to stay aware of planned outages and maintenance to help schedule test execution.
-Components are not delivered on time	25%	Schedule	Development Manager	Integration testing with those components must be delayed until the component is delivered
-Overall integration test approach may be modified to do an appropriate amount of bottom-up as well as top-down or sandwich integration.
-Schedule must be adjusted accordingly.
-Turnover	5%	Personnel	Test Manager	Testers will work in pairs on components. If a single member of the team decides to leave, a secondary testing with the knowledge of the component will still be able to train a new tester or finish the work.
-Schedule must be adjusted accordingly.
+* Misunderstanding of requirements.
+* Hardware or Software failure during testing.
+* Delay in obtaining programs to test with, due to Underestimation or overestimation of skills of the programmers.
+* Underestimation or overestimation of skills of the software testers.
+* Students undertaking more tasks than they can handle.
 
 ### Dependencies
-Identify significant constraints on testing, such as test-item availability, testing-resource availability, and deadlines.
+* The students create the tests and 2048 programs to be tested.
+* There must be a working program to perform the test on.
+* The tests must be completed by May 6 2014.
 
 Success Criteria
 --------------------------
