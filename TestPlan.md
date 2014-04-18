@@ -31,7 +31,7 @@ Types of Tests to apply
 #### Installation testing
 #### Documentation testing 
 #### Operations testing 
-#### security testing 
+#### Security testing 
 #### conﬁguration testing 
 
 
@@ -99,7 +99,8 @@ Documentations Produced
 
 Risks and Dependencies
 --------------------------
-
+### Risks 
+### Dependencies
 
 Success Criteria
 --------------------------
