@@ -122,6 +122,7 @@ Turnover	5%	Personnel	Test Manager	Testers will work in pairs on components. If 
 Schedule must be adjusted accordingly.
 
 ### Dependencies
+Identify significant constraints on testing, such as test-item availability, testing-resource availability, and deadlines.
 
 Success Criteria
 --------------------------
